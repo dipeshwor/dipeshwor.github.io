@@ -1,34 +1,14 @@
 .flex-container {
   display: flex;
-  flex-wrap: nowrap;
-  background-color: white;
+  flex-wrap: wrap;
+  background-color: #417dc1;
 }
 
 .flex-container > div {
-  background-color: #D6ECF7;
-  width: 640px;
-  margin: 10px;
-  text-align: center;
-  font-size: 24px;      
-}
-
-div.gallery {
+  background-color: #e8edf1;
+  width: 250px;
   margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
   text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
